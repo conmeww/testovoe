@@ -1,0 +1,33 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  @media only screen and (max-width: 992px) {
+    flex-direction: column;
+    padding-top: 1em;
+    padding-bottom: 1em;
+  }
+  h3 {
+    margin-right: 12em;
+    text-align: center;
+    @media only screen and (max-width: 992px) {
+      margin-right: 0;
+      margin-bottom: 1em;
+    }
+    @media only screen and (max-width: 550px) {
+      font-size: 1.3em;
+    }
+  }
+}
+.header__wrapper {
+  height: 8em;
+  background: #fff;
+  @media only screen and (max-width: 992px) {
+    height: 100%;
+  }
+}
+.btn--header {
+  width: 14em;
+  height: 3.5em;
+}
